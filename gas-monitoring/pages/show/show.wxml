@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <image src='images/icon_boss.png' ></image>
+
+        <text class=".login-way">------------请选择登录方式------------</text>
+        <button class="mini-btn" type="primary" size="default">微信登录</button>
+
+</view>

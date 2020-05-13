@@ -1,0 +1,33 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+
+   <view class="page-section">
+    <view class="weui-cells__title">燃气流量:</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{motto.c}}" maxlength="10" placeholder="请输入信息" />
+      </view>
+    </view>
+  </view>
+    <view class="page-section">
+    <view class="weui-cells__title">气味:</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{motto.b}}"  maxlength="10" placeholder="请输入信息" />
+      </view>
+    </view>
+  </view>
+    <view class="page-section">
+    <view class="weui-cells__title">温度:</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" value="{{motto.a}}" maxlength="10" placeholder="请输入信息" />
+      </view>
+    </view>
+  </view>
+      
+
+  </view>
+ 
+</view>

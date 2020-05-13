@@ -1,0 +1,18 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.login-way{
+  font-size: 14px;
+  color: gainsboro;
+margin:50rpx;
+}
+.mini-btn{
+  width: 350rpx;
+  border-radius: 20px;
+  border:none
+}
