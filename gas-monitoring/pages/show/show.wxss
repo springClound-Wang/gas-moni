@@ -12,7 +12,102 @@
 margin:50rpx;
 }
 .mini-btn{
+  margin:20rpx;
   width: 350rpx;
   border-radius: 20px;
-  border:none
 }
+
+.headView {
+ 
+  }
+  
+  .headImageView {
+display: block;
+margin-left: 110px;
+/* margin-top: 25px;
+  
+margin-right: 25px;
+  
+margin-bottom: 0px; */
+  
+height: 50px;
+  
+  }
+  
+  .headImage{
+  
+display: flex;
+  
+width: 50px;
+  
+height: 50px;
+  
+  }
+  
+  .titleText {
+  
+margin-left: 25px;
+  
+margin-top: 25px;
+  
+margin-bottom: 10px;
+  
+font-size: 14px;
+  
+color: #020e0f;
+  
+text-align: center;
+  
+  }
+  
+  .contentText {
+  
+margin-left: 25px;
+  
+margin-top: 0px;
+  
+margin-bottom: 0px;
+  
+font-size: 14px;
+  
+color: #666;
+  
+text-align: center;
+  
+  }
+  
+  .authBtn {
+  
+margin-top : 35px;
+  
+margin-left: 25px;
+  
+margin-right: 25px;
+  
+ height: 45px;
+  
+font-size: 17.5px;
+
+  }
+  .userinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+  }
+  .page-section{
+    padding:10px;
+  }
+  .weui-input{
+    border:1px solid grey;
+    border-radius: 10rpx;
+  }
+  .userinfo-nickname {
+    color: black;
+  }

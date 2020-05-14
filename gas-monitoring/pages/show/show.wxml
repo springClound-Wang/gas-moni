@@ -1,8 +1,36 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <image src='images/icon_boss.png' ></image>
+<view class="userinfo">
 
-        <text class=".login-way">------------请选择登录方式------------</text>
-        <button class="mini-btn" type="primary" size="default">微信登录</button>
+ <image class="userinfo-avatar"  mode="scaleToFill" src="{{user.avatarUrl}}"></image>
+ <text class="userinfo-nickname">{{user.nickName}}</text>
+ <button class="mini-btn"  type='primary' >查看</button>
+     <button  class="mini-btn"  type='warn' >退出</button>
+</view>
+
+<view wx:if="{{canIUse}}">
+
+  <view class='headView'>
+
+    <view class='headImageView'>
+
+      <image class='headImage' src='/images/icon_boss.png' mode='scaleToFill'></image>
+
+    </view>
+
+    <view class='titleText'>申请获取以下权限</view>
+
+    <view class='contentText'>获得你的公开信息(昵称,头像,手机等)</view>
+
+    <button class='authBtn' type='primary' open-type='getUserInfo' bindgetuserinfo='bindGetUserInfo'>授权登录</button>
+
+  </view>
 
 </view>
+
+<view wx:else>请升级微信版本</view> 
+</view>
+
+
+
+

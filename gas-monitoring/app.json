@@ -3,7 +3,7 @@
     "pages/show/show",
     "pages/index/index",
     "pages/logs/logs"
- 
+
   ],
   "window":{
     "backgroundTextStyle":"light",
